@@ -1,4 +1,4 @@
-// -- all code by @jpmmcbride, message me on twitter if you have questions! -->
+// -- all code by jpmcb, message me on Github or twitter (@jpmmcbride) if you have questions! -->
 
 
 // ------ MAIN AJAX CODE ---------
@@ -26,7 +26,7 @@ function getContent() {
   })
 }
 
-// click & enter interaction with user input
+// --- onclick & press enter interaction with user input
 $('#searchBtn').click(getContent);
 $(document).keypress(function(e) {
     if(e.which == 13) {
@@ -34,7 +34,7 @@ $(document).keypress(function(e) {
     }
 });
 
-// --- clear button code ---
+// --- clear button 
 $('#clearBtn').click(function(){
   $('.col-sm-10').fadeOut(500).delay(500);
   $('#headerTitle').delay(500).fadeIn(450);
