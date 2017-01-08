@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia API</title>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    
+    <div class="">
+      <input id="search" type="text" class="form-control" placeholder="Search">
+    </div>
+    
+    <button class="btn btn-default navbar-btn">
+      <a target="_blank" class="navbar-link" href="https://en.wikipedia.org/wiki/Special:Random">random article</a>
+    </button>
+    
+    <button id="searchBtn" class="btn btn-default navbar-btn">Search</button>
+    <button id="clearBtn" class="btn btn-default navbar-btn navbar-right">Clear</button>
+  </div>
+</nav>
+
+<div id="headerTitle" class="container-fluid">
+  <div class="row">
+  <div class="col-sm-6 col-sm-offset-3 text-center">
+    <h1 id="mainTitle">Wikipedia Search Engine</h1>
+  </div>
+  </div>
+  
+  <div id="headerTitle" class="row container-fluid">
+  <div class="col-sm-6 col-sm-offset-3 text-center">
+    <footer>
+      created by @jpmmcbride
+    </footer>
+  </div>
+</div>
+</div>
+
+<div id="searchContent" class="fluid container">
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
